@@ -7,7 +7,6 @@
     { "name": "customerid", "type": "int", "doc": "Customer id from registration" },
     { "name": "first_name", "type": ["string"],"default": "null", "doc": "First Name of Customer" },
     { "name": "last_name", "type": ["string"],"default": "null", "doc": "Last Name of Customer" },
-    { "name": "ssn", "type": ["null","int"],"default": null, "doc": "Identity number" },
     { "name": "addressList",
       "type": {
         "type": "array",
